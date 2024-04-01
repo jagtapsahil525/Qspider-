@@ -1,0 +1,14 @@
+img{
+    height: 300px;
+    width: 250px;
+}
+
+section{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+section::-webkit-scrollbar{
+    display: none;
+}

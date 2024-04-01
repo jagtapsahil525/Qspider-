@@ -1,0 +1,7 @@
+h1{
+    text-align: center;
+    border-bottom: 10px solid yellow;
+    border-top:10px dashed black;
+    border-left: 10px double violet;     
+    border-right: 10px dotted crimson;   
+}

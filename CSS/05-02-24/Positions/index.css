@@ -1,0 +1,42 @@
+section{
+    height: 400px;
+    width: 100%;
+    background: darkgray;
+    display:flex;
+    gap: 10px;;
+    position::sticky;
+    top:10px;
+}
+
+div{
+height: 100px;
+width: 100px;
+background: white;
+border: 1px solid rebeccapurple;
+}
+
+/* #box2{
+    position: static;
+    top:10px;
+    bottom: 10px;
+} */
+
+/* #box2{
+    position: absolute;
+    top:10px;
+    bottom: 0px;
+} */
+
+#box2{
+    position:relative;
+    top:10px;
+    bottom: 0px;
+}
+p1{
+    color:blueviolet;
+    background-color: bisque
+}
+p2{
+    color: brown;
+    background-color: beige;
+}

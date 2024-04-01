@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background:#ee9999 ;
+}
+
+article {
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    color: #303030;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

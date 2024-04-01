@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-size: 50px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    display: none;
+}
+@media screen and (max-width:375px){
+    #box1{
+        display: block;
+    }
+}
+@media (min-width:376px) and (max-width:1000px){
+    #box2{
+        display: block;
+    }
+}
+@media (min-width:1001px) and (max-width:1200px){
+    #box3{
+        display: block;
+    }
+}
+@media (min-width:1201px) and (max-width:1400px){
+    #box4{
+        display: block;
+    }
+}

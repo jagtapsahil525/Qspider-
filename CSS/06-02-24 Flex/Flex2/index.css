@@ -1,0 +1,14 @@
+section {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(#ff9966,#ff5e62);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background: #000;
+}

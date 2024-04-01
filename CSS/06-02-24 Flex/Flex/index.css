@@ -1,0 +1,22 @@
+/* we must apply flex to the parent.
+flex-wrap is used to wrap the white space
+*/
+
+section {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background: red;
+    border: 1px solid green;
+}
